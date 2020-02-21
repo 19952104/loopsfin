@@ -20,7 +20,7 @@ public class LogicalOp {
         for (int i = a; i <= -100; i++) {
             System.out.println("Numarul este " + i);
         }
-
+        ;
     }
     //Creati o metoda in clasa LogicalOp, care sa primeasca doi parametrii de tip numar.
     // Metoda trebuie sa verifice care dintre cele doua numere este mai mare,
@@ -30,8 +30,9 @@ public class LogicalOp {
 
     public void printTheGreatest(int b, int c) {
         for (int i = b; b > c; c++) {
-            System.out.println("Numarul este " + c);
+            //System.out.println("Numarul este " + c);
         }
+        System.out.println("Numarul esteee " + c);
     }
 
     //5. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele pare de la 1 la 100.
